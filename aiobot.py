@@ -40,7 +40,7 @@ class AIOBot:
     @dp.message(CommandStart()) 
     async def command_start_handler(message: Message) -> None:
         await message.answer(f'Бот-утилита\n'
-                             f'Тестовые функции, рассчет ОСГ, остальное на доработке\n'
+                             f'Тестовые функции, расчет ОСГ, особенности и правила отгрузки товаров контрагентам, остальное на доработке\n'
                              f'/help для списка команд:\n')
     
     #help handler
@@ -51,7 +51,6 @@ class AIOBot:
                             '/expdatecalc - Калькулятор срока годности\n'
                             '/costumer_features - Особенности отгрузки клиентов\n'
                             '/hello - Бот с Вами поздоровается\n'
-                            '/alien - Пришелец\n'
                             '/start - Приветственное сообщение\n'
                             '/cancel - Отмена')
     # /cancel handler
