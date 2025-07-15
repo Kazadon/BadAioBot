@@ -209,5 +209,4 @@ __marimo__/
 # My project's ignoring
 .venv
 .env
-customer_features.docx
 *.code-workspace
